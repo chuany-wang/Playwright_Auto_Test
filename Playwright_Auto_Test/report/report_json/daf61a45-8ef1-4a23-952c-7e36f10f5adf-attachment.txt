@@ -1,0 +1,9 @@
+[32m2024-07-05 15:46:13[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:46:13[0m [35m[MainThread][0m-[36m[test_register[0m.[36mtest_register_pc[0m:[36m60][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的PC端注册功能[0m
+[32m2024-07-05 15:46:18[0m [35m[MainThread][0m-[36m[module_account[0m.[36minput_firstname_reg[0m:[36m53][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/注册时输入firstname[0m
+[32m2024-07-05 15:46:18[0m [35m[MainThread][0m-[36m[module_account[0m.[36minput_lastname_reg[0m:[36m60][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/注册时输入lastname[0m
+[32m2024-07-05 15:46:18[0m [35m[MainThread][0m-[36m[module_account[0m.[36minput_email_reg[0m:[36m67][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/注册时输入邮箱[0m
+[32m2024-07-05 15:46:18[0m [35m[MainThread][0m-[36m[module_account[0m.[36minput_password_reg[0m:[36m81][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/注册时输入密码[0m
+[32m2024-07-05 15:46:19[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_register_reg[0m:[36m95][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击注册按钮[0m
+[32m2024-07-05 15:46:19[0m [35m[MainThread][0m-[36m[module_account[0m.[36massert_reg[0m:[36m102][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/注册断言元素标签text-danger[0m
+[32m2024-07-05 15:46:19[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

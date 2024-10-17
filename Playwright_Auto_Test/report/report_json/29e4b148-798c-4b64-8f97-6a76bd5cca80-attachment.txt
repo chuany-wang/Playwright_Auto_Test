@@ -1,0 +1,78 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 16:02:18 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_checkout.test_pacypay_credit:test_pacypay_credit.py:55 2024-07-05 16:02:18 [test_pacypay_credit.test_pacypay_credit_pc:55]-[INFO]:正在测试站点 https://test.cncest.com/ 的 PacyPayCredit结账模块
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:121 2024-07-05 16:03:16 [module_common.click_buy_now:121]-[ERROR]:https://test.cncest.com/ 点击BuyNow按钮出现异常:Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//button[@class=\"btn btn-warn action-btn _buy-now \"]")
+
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:156 2024-07-05 16:03:16 [module_common.input_email:156]-[DEBUG]:https://test.cncest.com/ 输入邮箱
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:169 2024-07-05 16:03:46 [module_common.select_country:169]-[ERROR]:https://test.cncest.com/: 选择客户国家出现异常: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("lit-select[name=\"country_id\"] span").first
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:176 2024-07-05 16:04:17 [module_common.input_firstname:176]-[ERROR]:https://test.cncest.com/: 输入客户名出现异常Page.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@name=\"firstname\"]")
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:183 2024-07-05 16:04:47 [module_common.input_lastname:183]-[ERROR]:https://test.cncest.com/: 输入客户姓出现异常Page.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@name=\"lastname\"]")
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:191 2024-07-05 16:05:17 [module_common.input_address:191]-[ERROR]:https://test.cncest.com/: 输入客户地址 出现异常Page.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@name=\"address_1\"]")
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:198 2024-07-05 16:05:47 [module_common.input_shipping_city:198]-[ERROR]:https://test.cncest.com/: 输入客户付款城市 出现异常Page.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@name=\"city\"]")
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:205 2024-07-05 16:06:17 [module_common.input_zipcode:205]-[ERROR]:https://test.cncest.com/输入客户邮编 出现异常Page.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@name=\"postcode\"]")
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:216 2024-07-05 16:06:48 [module_common.select_states:216]-[ERROR]:https://test.cncest.com/: 选择客户States出现异常: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("lit-select[name=\"zone_id\"] span").first
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:223 2024-07-05 16:07:18 [module_common.input_phone:223]-[ERROR]:https://test.cncest.com/: 输入客户手机号Page.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@name=\"telephone\"]")
+
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:230 2024-07-05 16:07:48 [module_common.click_save_button:230]-[ERROR]:https://test.cncest.com/: 点击save&Continue 按钮Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//button[@class=\"btn btn-primary\" and @type=\"submit\"]")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:25 2024-07-05 16:08:18 [module_pacypay_credit.choose_pacypay_cr:25]-[ERROR]:https://test.cncest.com/选择 PacyPayCredit 结账出现异常:Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@class = \"payment-of-pacypayment single-payment\"]/label/div")
+
+[35mDEBUG   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:30 2024-07-05 16:08:18 [module_pacypay_credit.iframe_pacypay_cr:30]-[DEBUG]:https://test.cncest.com/选择 PacyPayCredit切换Iframe 
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:40 2024-07-05 16:08:48 [module_pacypay_credit.input_card_number_pacypay_cr:40]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入银行卡号出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"pacypay_checkout\"]/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[1]/div/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:47 2024-07-05 16:09:18 [module_pacypay_credit.input_expire_data_pacypay_cr:47]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入有效期出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"pacypay_checkout\"]/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[2]/div[1]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:54 2024-07-05 16:09:48 [module_pacypay_credit.input_cvv_pacypay_cr:54]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入验证码出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"pacypay_checkout\"]/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[2]/div[2]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:61 2024-07-05 16:10:18 [module_pacypay_credit.input_firstName_pacypay_cr:61]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入FirstName出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"pacypay_checkout\"]/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[3]/div[1]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:68 2024-07-05 16:10:48 [module_pacypay_credit.input_lastName_pacypay_cr:68]-[ERROR]:https://test.cncest.com/PacyPayCredit输入LastName出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"pacypay_checkout\"]/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[3]/div[2]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:75 2024-07-05 16:11:18 [module_pacypay_credit.paynow_pacypay_cr:75]-[ERROR]:https://test.cncest.com/选择 PacyPayCredit点击PayNow出现异常:Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"pacypay_checkout\"]/iframe").locator("//*[@id = \"pacypay_checkout_container\"]/div/div[2]/button")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:93 2024-07-05 16:11:48 [module_pacypay_credit.assert_pacyPayCr:93]-[ERROR]:https://test.cncest.com/选择 PacyPayCredit获取报错提示出现异常:Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@class=\"container success-page\"]") to be visible
+
+[35mDEBUG   [0m common.basic:basic.py:69 2024-07-05 16:11:48 [basic.basic_screen_shot:69]-[DEBUG]:截图成功已经存储在: F:\Playwright_Project\report\report_screen\PacyPayCredit_1720167108333.png
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 16:11:48 [conftest.create_page:30]-[INFO]:page session fixture closing.......

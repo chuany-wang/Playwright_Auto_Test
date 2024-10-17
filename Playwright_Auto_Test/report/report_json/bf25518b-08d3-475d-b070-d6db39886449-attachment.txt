@@ -1,0 +1,6 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:41:58 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_forget_password:test_forget_password.py:56 2024-07-05 15:41:59 [test_forget_password.test_forget_password_pc:56]-[INFO]:正在测试站点 https://test.cncest.com/ 的 忘记密码功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:304 2024-07-05 15:42:06 [module_account.forget_password:304]-[DEBUG]:https://test.cncest.com/点击forget password
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:311 2024-07-05 15:42:06 [module_account.input_email_forget:311]-[DEBUG]:https://test.cncest.com/输入邮箱
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:318 2024-07-05 15:42:10 [module_account.save_button_forget:318]-[DEBUG]:https://test.cncest.com/点击确定
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:42:10 [conftest.create_page:30]-[INFO]:page session fixture closing.......

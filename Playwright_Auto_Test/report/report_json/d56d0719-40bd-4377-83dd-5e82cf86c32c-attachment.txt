@@ -1,0 +1,7 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:39:23 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_edit_Info:test_edit_Info.py:76 2024-07-05 15:39:24 [test_edit_Info.test_edit_info_pc:76]-[INFO]:正在测试站点 https://test.cncest.com/ pc端的个人中心编辑个人信息功能
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:18 2024-07-05 15:39:30 [module_edit_info.click_edit_info:18]-[DEBUG]:https://test.cncest.com/ 个人中心页面点击Edit Info
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:74 2024-07-05 15:39:31 [module_edit_info.input_new_name:74]-[DEBUG]:https://test.cncest.com/ 输入新的的name
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:81 2024-07-05 15:39:32 [module_edit_info.click_save:81]-[DEBUG]:https://test.cncest.com/ 点击Save 按钮
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:88 2024-07-05 15:39:32 [module_edit_info.assert_first:88]-[DEBUG]:https://test.cncest.com/ 断言FirstName:prIE
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:39:32 [conftest.create_page:30]-[INFO]:page session fixture closing.......

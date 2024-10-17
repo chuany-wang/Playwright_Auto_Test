@@ -1,0 +1,5 @@
+[32m2024-07-05 15:42:55[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m37][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:42:56[0m [35m[MainThread][0m-[36m[test_logout[0m.[36mtest_logout_ph[0m:[36m30][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的 手机端登出功能[0m
+[32m2024-07-05 15:43:02[0m [35m[MainThread][0m-[36m[module_account[0m.[36mlog_out[0m:[36m141][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击logout 按钮[0m
+[32m2024-07-05 15:43:04[0m [35m[MainThread][0m-[36m[module_account[0m.[36msure_logout[0m:[36m148][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ logout点击sure按钮[0m
+[32m2024-07-05 15:43:04[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m47][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

@@ -1,0 +1,8 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:43:24 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_my_return:test_my_return.py:54 2024-07-05 15:43:25 [test_my_return.test_my_return_pc:54]-[INFO]:正在测试站点 https://test.cncest.com/ pc端的 MyReturn功能
+[1m[31mERROR   [0m modules.module_account.module_account:module_account.py:343 2024-07-05 15:44:00 [module_account.click_MyReturn:343]-[ERROR]:https://test.cncest.com/: 点击My return出现异常Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//a[contains(@href,\"route=account/return\")]/div/span[2]")
+
+[35mDEBUG   [0m common.basic:basic.py:69 2024-07-05 15:44:01 [basic.basic_screen_shot:69]-[DEBUG]:截图成功已经存储在: F:\Playwright_Project\report\report_screen\My Return_1720165440924.png
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:44:01 [conftest.create_page:30]-[INFO]:page session fixture closing.......

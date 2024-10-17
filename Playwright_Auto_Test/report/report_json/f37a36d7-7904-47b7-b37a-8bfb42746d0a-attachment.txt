@@ -1,0 +1,51 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:57:31 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_checkout.test_pacypay_credit:test_pacypay_credit.py:30 2024-07-05 15:57:32 [test_pacypay_credit.test_pacypay_credit_ph:30]-[INFO]:正在测试站点 https://test.cncest.com/ 的手机端PacyPayCredit的结账模块
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:119 2024-07-05 15:57:40 [module_common.click_buy_now:119]-[DEBUG]:https://test.cncest.com/ 点击BuyNow按钮
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:156 2024-07-05 15:57:42 [module_common.input_email:156]-[DEBUG]:https://test.cncest.com/ 输入邮箱
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:167 2024-07-05 15:57:42 [module_common.select_country:167]-[DEBUG]:https://test.cncest.com/: 选择客户国家
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:174 2024-07-05 15:57:42 [module_common.input_firstname:174]-[DEBUG]:https://test.cncest.com/: 输入客户名
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:181 2024-07-05 15:57:42 [module_common.input_lastname:181]-[DEBUG]:https://test.cncest.com/: 输入客户姓
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:189 2024-07-05 15:57:42 [module_common.input_address:189]-[DEBUG]:https://test.cncest.com/: 输入客户地址
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:196 2024-07-05 15:57:42 [module_common.input_shipping_city:196]-[DEBUG]:https://test.cncest.com/: 输入客户付款城市
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:203 2024-07-05 15:57:43 [module_common.input_zipcode:203]-[DEBUG]:https://test.cncest.com/输入客户邮编
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:214 2024-07-05 15:57:44 [module_common.select_states:214]-[DEBUG]:https://test.cncest.com/: 选择客户States
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:221 2024-07-05 15:57:44 [module_common.input_phone:221]-[DEBUG]:https://test.cncest.com/: 输入客户手机号
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:230 2024-07-05 15:58:14 [module_common.click_save_button:230]-[ERROR]:https://test.cncest.com/: 点击save&Continue 按钮Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"app\"]/div/div[3]/div/div[4]/button")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:25 2024-07-05 15:58:44 [module_pacypay_credit.choose_pacypay_cr:25]-[ERROR]:https://test.cncest.com/选择 PacyPayCredit 结账出现异常:Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//div[@id=\"payment-of-pacypayment\"]/../div")
+
+[35mDEBUG   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:30 2024-07-05 15:58:44 [module_pacypay_credit.iframe_pacypay_cr:30]-[DEBUG]:https://test.cncest.com/选择 PacyPayCredit切换Iframe 
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:40 2024-07-05 15:59:14 [module_pacypay_credit.input_card_number_pacypay_cr:40]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入银行卡号出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//div[@id=\"payment-of-pacypayment\"]/div/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[1]/div/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:47 2024-07-05 15:59:44 [module_pacypay_credit.input_expire_data_pacypay_cr:47]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入有效期出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//div[@id=\"payment-of-pacypayment\"]/div/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[2]/div[1]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:54 2024-07-05 16:00:14 [module_pacypay_credit.input_cvv_pacypay_cr:54]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入验证码出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//div[@id=\"payment-of-pacypayment\"]/div/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[2]/div[2]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:61 2024-07-05 16:00:44 [module_pacypay_credit.input_firstName_pacypay_cr:61]-[ERROR]:https://test.cncest.com/ PacyPayCredit输入FirstName出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//div[@id=\"payment-of-pacypayment\"]/div/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[3]/div[1]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:68 2024-07-05 16:01:14 [module_pacypay_credit.input_lastName_pacypay_cr:68]-[ERROR]:https://test.cncest.com/PacyPayCredit输入LastName出现异常:Locator.fill: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//div[@id=\"payment-of-pacypayment\"]/div/iframe").locator("//*[@id=\"pacypay_checkout_container\"]/div/div[2]/div[3]/div[2]/div/input")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:75 2024-07-05 16:01:44 [module_pacypay_credit.paynow_pacypay_cr:75]-[ERROR]:https://test.cncest.com/选择 PacyPayCredit点击PayNow出现异常:Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//div[@id=\"payment-of-pacypayment\"]/div/iframe").locator("//button[@class=\"pacypay-checkout__button pacypay-checkout__button--pay\"]")
+
+[1m[31mERROR   [0m modules.module_checkout.module_pacypay_credit:module_pacypay_credit.py:93 2024-07-05 16:02:14 [module_pacypay_credit.assert_pacyPayCr:93]-[ERROR]:https://test.cncest.com/选择 PacyPayCredit获取报错提示出现异常:Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@class=\"order-id\"]") to be visible
+
+[35mDEBUG   [0m common.basic:basic.py:69 2024-07-05 16:02:17 [basic.basic_screen_shot:69]-[DEBUG]:截图成功已经存储在: F:\Playwright_Project\report\report_screen\PacyPayCredit_1720166534314.png
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 16:02:17 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

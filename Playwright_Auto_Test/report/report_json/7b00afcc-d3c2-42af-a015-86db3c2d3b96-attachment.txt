@@ -1,0 +1,6 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:44:01 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_order_search:test_order_search.py:29 2024-07-05 15:44:02 [test_order_search.test_order_search_ph:29]-[INFO]:正在测试站点 https://test.cncest.com/ 手机端的个人中心MyOrder功能
+[35mDEBUG   [0m modules.module_account.module_my_order:module_my_order.py:14 2024-07-05 15:44:10 [module_my_order.click_view_all:14]-[DEBUG]:https://test.cncest.com/个人中心页面点击View All
+[35mDEBUG   [0m modules.module_account.module_my_order:module_my_order.py:21 2024-07-05 15:44:10 [module_my_order.click_search_order:21]-[DEBUG]:https://test.cncest.com/点击搜索订单
+[35mDEBUG   [0m modules.module_account.module_my_order:module_my_order.py:28 2024-07-05 15:44:10 [module_my_order.input_search_order:28]-[DEBUG]:https://test.cncest.com/输入搜索内容
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 15:44:11 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

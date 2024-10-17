@@ -1,0 +1,19 @@
+[32m2024-07-05 15:50:16[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:50:17[0m [35m[MainThread][0m-[36m[test_oceanpay_credit[0m.[36mtest_ocean_pay_pc[0m:[36m60][0m-[1m[INFO][0m: [1m正在测试站点https://test.cncest.com/ 的oceanPay的结账模块[0m
+[32m2024-07-05 15:50:23[0m [35m[MainThread][0m-[36m[module_common[0m.[36mclick_buy_now[0m:[36m119][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 点击BuyNow按钮[0m
+[32m2024-07-05 15:50:23[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_email[0m:[36m156][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 输入邮箱[0m
+[32m2024-07-05 15:50:32[0m [35m[MainThread][0m-[36m[module_common[0m.[36mselect_country[0m:[36m167][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 选择客户国家[0m
+[32m2024-07-05 15:50:32[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_firstname[0m:[36m174][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户名[0m
+[32m2024-07-05 15:50:32[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_lastname[0m:[36m181][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户姓[0m
+[32m2024-07-05 15:50:32[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_address[0m:[36m189][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户地址[0m
+[32m2024-07-05 15:50:32[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_shipping_city[0m:[36m196][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户付款城市[0m
+[32m2024-07-05 15:50:32[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_zipcode[0m:[36m203][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户邮编[0m
+[32m2024-07-05 15:50:39[0m [35m[MainThread][0m-[36m[module_common[0m.[36mselect_states[0m:[36m214][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 选择客户States[0m
+[32m2024-07-05 15:50:39[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_phone[0m:[36m221][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户手机号[0m
+[32m2024-07-05 15:50:41[0m [35m[MainThread][0m-[36m[module_common[0m.[36mclick_save_button[0m:[36m228][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 点击save&Continue 按钮[0m
+[32m2024-07-05 15:51:11[0m [35m[MainThread][0m-[36m[module_oceanpay[0m.[36mchoose_oceanPay[0m:[36m24][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/ 选择oceanPay结账出现异常:Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@value = \"oceanpayment\"]/../div")
+[0m
+[32m2024-07-05 15:51:11[0m [35m[MainThread][0m-[36m[module_oceanpay[0m.[36miframe_oceanPay[0m:[36m61][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 选择oceanPay获取Iframe [0m
+[32m2024-07-05 15:51:41[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

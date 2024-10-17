@@ -1,0 +1,8 @@
+[32m2024-07-05 15:47:44[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:47:44[0m [35m[MainThread][0m-[36m[test_cart_remove[0m.[36mtest_cart_remove_pc[0m:[36m59][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的PC端 cartRemove 的结账模块[0m
+[32m2024-07-05 15:47:55[0m [35m[MainThread][0m-[36m[module_common[0m.[36madd_cart[0m:[36m128][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 添加商品到购物车[0m
+[32m2024-07-05 15:47:57[0m [35m[MainThread][0m-[36m[module_common[0m.[36mview_cart[0m:[36m140][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ PC端商品详情页进入到购物车[0m
+[32m2024-07-05 15:47:58[0m [35m[MainThread][0m-[36m[moduleCart[0m.[36mremove_all_pro[0m:[36m24][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 购物车内移除商品[0m
+[32m2024-07-05 15:47:58[0m [35m[MainThread][0m-[36m[moduleCart[0m.[36mmake_sure_remove[0m:[36m32][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 购物车内点击确认按钮[0m
+[32m2024-07-05 15:48:00[0m [35m[MainThread][0m-[36m[moduleCart[0m.[36mremove_assert[0m:[36m40][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/购物车内移除商品断言https://test.cncest.com/index.php?route=account/login[0m
+[32m2024-07-05 15:48:00[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

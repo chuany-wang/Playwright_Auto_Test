@@ -1,0 +1,4 @@
+[32m2024-07-05 15:45:18[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m37][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:45:19[0m [35m[MainThread][0m-[36m[test_recently_view[0m.[36mtest_recently_view_ph[0m:[36m29][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的最近浏览功能[0m
+[32m2024-07-05 15:45:26[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_recently_viewed[0m:[36m292][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 点击最近浏览[0m
+[32m2024-07-05 15:45:26[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m47][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

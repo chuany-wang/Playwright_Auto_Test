@@ -1,0 +1,8 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:41:18 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_edit_password:test_edit_password.py:28 2024-07-05 15:41:19 [test_edit_password.test_edit_password_ph:28]-[INFO]:正在测试站点 https://test.cncest.com/ 的手机端修改密码功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:161 2024-07-05 15:41:27 [module_account.click_edit_password:161]-[DEBUG]:https://test.cncest.com/点击修改密码按钮
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:175 2024-07-05 15:41:28 [module_account.input_new_pw:175]-[DEBUG]:https://test.cncest.com/输入新密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:182 2024-07-05 15:41:28 [module_account.input_new_pw_sec:182]-[DEBUG]:https://test.cncest.com/:二次输入新密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:189 2024-07-05 15:41:29 [module_account.submit_pw_confirm:189]-[DEBUG]:https://test.cncest.com/确认密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:199 2024-07-05 15:41:30 [module_account.confirm_success:199]-[DEBUG]:https://test.cncest.com/修改密码完成后点击确认
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 15:41:30 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

@@ -1,0 +1,5 @@
+[32m2024-07-05 15:37:39[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m37][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:37:40[0m [35m[MainThread][0m-[36m[test_contact_us[0m.[36mtest_contact_us_ph[0m:[36m29][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的手机端ContactUs功能[0m
+[32m2024-07-05 15:37:54[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_contact_us[0m:[36m252][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击contact_us[0m
+[32m2024-07-05 15:37:55[0m [35m[MainThread][0m-[36m[module_account[0m.[36massert_contact_us[0m:[36m262][0m-[34m[1m[DEBUG][0m: [34m[1m断言元素为contact-us[0m
+[32m2024-07-05 15:37:55[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m47][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

@@ -1,0 +1,73 @@
+#  ------------------------------------------- 详情页 定位 ------------------------------------------------------
+- plus_pro_num_info:
+    selector: '//span[@class = "increase-btn"]'
+
+#----------------------------------------------- 添加评论 -------------------------------------------------------------
+- write_review_button:
+    selector: '//button[@class = "write-review-btn"]'
+
+- review_input_name:
+    selector: '//input[@name = "name"]'
+    value: cncest.test@gmail.com
+
+- review_data_score:
+    selector: '//i[@data-score = "5"]'
+
+- review_input_title:
+    selector: '//input[@name = "title"]'
+    value: Read the instructions
+
+- review_input_text:
+    selector: '//textarea[@name = "text"]'
+    value: It’s a bit confusing as a novice but really good product all together. I recommend it.
+
+- review_submit_button:
+    selector: '//button[@id = "button-review"]'
+
+- assert_selector:
+    selector: '//*[class = "global-tip"]/div/i'
+
+#----------------------------------------------- 添加收藏 -------------------------------------------------------------
+- add_wish:
+    selector: '//*[@class = "product-top"]/div[2]'
+
+
+
+#----------------------------------------------- 修改商品数量 ------------------------------------------------------------
+
+- sub_pro_num_info:
+    selector: '//span[@class = "reduce-btn"]'
+
+
+#----------------------------------------------- ask question ------------------------------------------------------------
+
+- ask_question_pro_info:
+    selector: '//*[@class= "ask-btn"]'
+
+
+- input_name_ask_que:
+    selector: '//*[@class="ask-form"]/div[1]/div/input'
+    value: cncest.test@gmail.com
+
+- input_email_ask_que:
+    selector: '//*[@class="ask-form"]/div[2]/div/input'
+    value: cncest.test@gmail.com
+
+- input_ques_ask_que:
+    selector: '//*[@class="ask-form"]/div[3]/div/textarea'
+    value: test
+
+- submit_ask_que:
+    selector: '//*[@class="ask-form"]/button'
+
+- assert_ask_que:
+    selector: '//body/div[2]'
+    name: 'class'
+
+#----------------------------------------------- 分享 ------------------------------------------------------------
+
+- share_button:
+    selector: '//*[@class = "top-btn share-btn"]'
+
+- facebook:
+    selector: '//*[contains(@class,"share-popup")]/div/div[2]/div/a[1]'

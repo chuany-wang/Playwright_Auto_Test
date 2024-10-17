@@ -1,0 +1,123 @@
+- my_account:
+    selector: '//a[contains(@href,"route=module_account/module_account")]'
+
+#  ------------------------------------------- login_case ------------------------------------------------------
+
+- inputEmail_login:
+    selector: '//input[@name = "email"]'
+    value: "cncest.test@gmail.com"
+
+- inputPassword_login:
+    selector: '//input[@type = "password"]'
+    value: "123456"
+
+- remember_login:
+    selector: '//*[@name="remember"]'
+
+- loginButton_login:
+    selector: '//button[@id="submit-button"]'
+
+
+#  ------------------------------------------------ search  -----------------------------------------------------------
+
+- search_home:
+    selector: '//*[@class="btn_search"]'
+
+- search_input:
+    selector: '//input[@name= "search"]'
+
+- search_icon:
+    selector: '//*[@id="mahardhiSearch"]/span/button'
+
+#  -------------------------------------------------- pro page ---------------------------------------------------------
+
+- green_search_button:
+    selector: '//button[@class= "submit"]'
+
+- pro_info:
+    selector: '//*[@id="content"]/div[3]/div/div/div[2]/div/h4'
+
+- buy_now:
+    selector: '//*[@id="button-buy-now-button-cart"]'
+
+- add_cart:
+    #    selector: '//button[@id="button-cart"]'
+    #    selector: '//a[contains(@data-url,"route=extension/module/popup_cart_and_quickly_checkout/cart")]'
+    selector: '//button[@class="btn btn-primary action-btn _add-cart "]'
+
+- wait_slide_cart:
+    selector: '//div[@id="quick_checkout_content"]'
+
+- view_cart:
+    selector: '//a[contains(@href,"route=extension/module/popup_cart_and_quickly_checkout/cart")]'
+
+- checkout_cart:
+    selector: '//*[@class="module_checkout-button"]'
+
+#  ------------------------------------------- Edit customer info ------------------------------------------------------
+
+- inputEmail:
+    selector: '//*[@id="input-payment-email"]'
+    value: cncest.test@gmail.com
+
+- selectCountry:
+    selector: '//*[@id="input-payment-country"]'
+    index: 1
+
+- inputFirstName:
+    selector: '//*[@id="input-payment-firstname"]'
+    value: Test
+
+- inputLastName:
+    selector: '//*[@id="input-payment-lastname"]'
+    value: Person-test
+
+- inputAddress:
+    selector: '//*[@id="input-payment-address-1"]'
+    value: '2693 Test Rd'
+
+- inputShipCity:
+    selector: '//*[@id="input-payment-city"]'
+    value: 'Test City'
+
+- inputZipCode:
+    selector: '//*[@id="input-payment-postcode"]'
+    value: 'V7H 1l9'
+
+- selectState:
+    selector: '//select[@id="input-payment-zone"]'
+    index: 2
+
+- inputPhone:
+    selector: '//*[@id="input-payment-telephone"]'
+    value: '15197438620'
+
+- saveButton:
+    selector: '//*[@id="button-guest"]'
+
+- continuePayButton:
+    selector: '//*[@id="button-shipping-method"]'
+
+
+#  ------------------------------------------- select country ---------------------------------------------------------
+
+- current_choice_kte_button:
+    selector: '//*[@class="flex current-choice triggle-box"]'
+
+- current_choice_green_button:
+    selector: '//div[@class="current-choice"]'
+
+- click_select_kte_country:
+    selector: '/html/body/header/div[1]/div[3]/div[2]/div/div/form/div[1]/lit-select'
+
+- click_select_green_country:
+    selector: '//*[@name="nation"]'
+
+- click_submit_kte_country:
+    selector: '/html/body/header/div[1]/div[3]/div[2]/div/div/form/div[4]/button'
+
+- click_submit_green_country:
+    selector: '/html/body/div[4]/div[1]/div/div[3]/div[2]/form/div[4]/button'
+
+- assert_select_country:
+    selector: '//*[@class= "second-box"]/div[2]/ul/li[1]/a/span[2]'

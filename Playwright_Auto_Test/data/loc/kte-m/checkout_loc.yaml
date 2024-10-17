@@ -1,0 +1,224 @@
+#  --------------------------------------------- oceanPay --------------------------------------------------------
+
+- choose_oceanPay:
+    selector: '//div[@id="payment-of-oceanpayment"]/../div'
+
+- iframe_oceanPay:
+    selector: '//iframe[@id="oceanpayment-iframe-region"]'
+
+- wait_frame_oceanPay:
+    selector: '//*[@id="card_number_temp"]'
+
+- paynow_oceanPay:
+    selector: '//button[@id="oceanpayment-payNow"]'
+
+- input_card_num_oceanPay:
+    selector: '//input[@id="card_number_temp"]'
+    value: '4111111111111111'
+
+- input_expire_data_oceanPay:
+    selector: '//input[@id="checkout_expiration_date"]'
+    value: '1226'
+
+- input_cvv2_oceanPay:
+    selector: '//input[@id="cvv2"]'
+    value: '123'
+
+- input_password_oceanPay:
+    selector: '//input[@id="password"]'
+    value: '123456'
+
+- Enter_password_oceanPay:
+    selector: '//input[@id="password"]'
+    key: 'Enter'
+
+- submit_btn_oceanPay:
+    selector: '//input[@id="submit_btn"]'
+
+- wait_success:
+    selector: '//div[@class="success-box"]'
+
+- assert_oceanPay:
+    selector: '//*[@id="errorSpan"]'
+    name: 'id'
+
+#  ------------------------------------------- oceanPayKlarna ------------------------------------------------------
+
+- choose_opKlarna:
+    selector: '//div[@id="payment-of-op_klarna"]/../div'
+
+- paynow_opKlarna:
+    selector: '//*[@id ="payment-of-op_klarna"]/form/div/div/button'
+
+- iframe_opKlarna:
+    selector: '//*[@id="ifrm_klarna_checkout"]'
+
+- authorize_opKlarna:
+    selector: '//*[@id="authorize"]'
+
+- continue_opKlarna:
+    selector: '//button[@data-test="select-payment-category"]'
+
+- buy_button_opKlarna:
+    selector: '//button[@id="buy_button"]'
+
+#  --------------------------------------------  pacyPayCredit  ---------------------------------------------------------
+
+- choose_pacyPayCr:
+    selector: '//div[@id="payment-of-pacypayment"]/../div'
+
+- iframe_pacyPayCr:
+    selector: '//div[@id="payment-of-pacypayment"]/div/iframe'
+
+- inputCardNumber_pacyPayCr:
+    selector: '//*[@id="pacypay_checkout_container"]/div/div[2]/div[1]/div/div/input'
+    value: 4000027891380961
+
+- inputExpirationDate_pacyPayCr:
+    selector: '//*[@id="pacypay_checkout_container"]/div/div[2]/div[2]/div[1]/div/input'
+    value: 11/24
+
+- inputCvv_pacyPayCr:
+    selector: '//*[@id="pacypay_checkout_container"]/div/div[2]/div[2]/div[2]/div/input'
+    value: 123
+
+- inputFirstNameOnCard_pacyPayCr:
+    selector: '//*[@id="pacypay_checkout_container"]/div/div[2]/div[3]/div[1]/div/input'
+    value: Mock
+
+- inputLastNameOnCard_pacyPayCr:
+    selector: '//*[@id="pacypay_checkout_container"]/div/div[2]/div[3]/div[2]/div/input'
+    value: Mock
+
+- paynow_pacyPayCr:
+    selector: '//button[@class="pacypay-checkout__button pacypay-checkout__button--pay"]'
+
+- wait_assert_pacyPayCr:
+    selector: '//*[@class="order-id"]'
+
+- assert_pacyPayCr:
+    selector: '//*[@id = "pacypay_checkout_container"]/div/div[2]/div[1]/div[1]/div/span[2]'
+    name: "style"
+
+
+#  --------------------------------------------  pacyPayCashier  --------------------------------------------------------
+
+- choose_pacyPayCa:
+    selector: '//div[@id="payment-of-pacypayment_cashier"]/../div'
+
+- paynow_pacyPayCa:
+    selector: '//input[@id="PacyPay_checkout_button_cashier"]'
+
+
+#  --------------------------------------------  pacyPayKlaran  ---------------------------------------------------------
+
+- choose_pacyPayKl:
+    selector: '//div[@id="payment-of-pacypayment_klarna"]/../div[1]'
+
+- paynow_pacyPcyKl:
+    selector: '//*[@id="payment-of-pacypayment_klarna"]/div[2]/div/input'
+
+- wait_assert_pacyPayKl:
+    selector: '//input[@id="phone"]'
+
+
+#  --------------------------------------------  payoneer  ---------------------------------------------------------
+
+- choose_payoneer:
+    selector: '//div[@id="payment-of-payoneer"]/../div'
+
+- iframe_payoneer:
+    selector: '//*[@id= "formContainerVISA"]/iframe'
+
+- wait_frame_payoneer:
+    selector: '//input[@id="VISAform-number"]'
+
+- cardNum_payoneer:
+    selector: '//*[@id="networkForm"]/div/fieldset/div[1]/div[2]/input'
+    value: '4444333322221111'
+
+- monthExp_payoneer:
+    selector: '//*[@id="networkForm"]/div/fieldset/div[2]/div[2]/select[1]'
+    index: 6
+
+- yearExp_payoneer:
+    selector: '//*[@id="networkForm"]/div/fieldset/div[2]/div[2]/select[2]'
+    index: 6
+
+- secCode_payoneer:
+    selector: '//*[@id="networkForm"]/div/fieldset/div[3]/div[2]/input'
+    value: '123'
+
+- name_payoneer:
+    selector: '//*[@id="networkForm"]/div/fieldset/div[4]/div[2]/input'
+    value: '3ds2-frictionless-identified'
+
+- paynow_payoneer:
+    selector: '//button[@id="payoneerSubmitBtn"]'
+
+- wait_assert_payoneer:
+    selector: '//*[@class="order-id"]'
+
+- assert_payoneer:
+    selector: '//*[@id="networkForm"]/div/fieldset/div[1]/div[3]/span'
+    name: 'class'
+
+
+#  -------------------------------------------- paypal--------------------------------------------------------
+
+- iframe_paypal:
+    selector: '//*[@id="quick_paypal_form"]/div/div/div/iframe[1]'
+
+- paypal_button:
+    selector: '//*[@id = "buttons-container"]'
+
+- assert_paypal:
+    selector: '//*[@id = "email"]'
+
+- email_paypal:
+    selector: '//*[@id = "email"]'
+    value: 'sb-punn122596808@personal.example.com'
+
+- next_button_paypal:
+    selector: '//*[@id = "btnNext"]'
+
+- password_paypal:
+    selector: '//*[@id = "password"]'
+    value: '2VDG-crb'
+
+- login_paypal:
+    selector: '//*[@id = "btnLogin"]'
+
+- cookie_button_paypal:
+    selector: '//*[@id = "acceptAllButton"]'
+
+- continue_order_paypal:
+    selector: '//*[@id= "payment-submit-btn"]'
+
+- input_telephone_paypal:
+    selector: '//*[@name= "telephone"]'
+    value: '123456'
+
+- edit_telephone_button:
+    selector: '//*[@class="confirm-paypal-page"]/div/div[1]/div/div[1]/span'
+
+- pay_now_paypal:
+    selector: '//button[contains(@data-href,"route=extension/module/paypal_smart_button/completeOrder")]'
+
+- wait_assert_paypal:
+    selector: '//*[@class="order-id"]'
+
+
+#  --------------------------------------------  change address--------------------------------------------------------
+
+- ship_address:
+    selector: '//*[@data-block = "address"]/div/div/div[2]/div/div[2]'
+
+- chan_name:
+    selector: '//*[@name = "firstname"]'
+
+- save_button_chan:
+    selector: '//*[@class = "checkout-app"]/div[3]/div[1]/div[5]/button'
+
+- assert_chanAddress:
+    selector: '//*[@class = "checkout-app"]/div[3]/div[1]/div[3]/div/div/div[2]/div[1]/div[1]/p[1]/span[1]'

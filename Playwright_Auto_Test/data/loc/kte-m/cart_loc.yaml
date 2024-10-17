@@ -1,0 +1,54 @@
+- add_cart:
+    selector: '//button[@class = "action-btn success-btn _add-cart "]'
+
+#  ------------------------------------------- 购物车页面 ------------------------------------------------------
+
+- remove_button:
+    selector: '//*[@class = "remove-btn"]/button'
+
+- empty_cart:
+    selector: '//div[@class= "cart-empty"]'
+
+- assert_remove:
+    selector: '//input[@id = "product-count"]'
+    name: 'value'
+
+
+#  ------------------------------------------- 修改商品数量--------------------------------------------------------------
+
+- plus_pro_num_cart:
+    selector: '//*[@class = "quantity"]/button[2]'
+
+- sub_pro_num_cart:
+    selector: '//*[@class = "quantity"]/button[1]'
+
+- single_price:
+    selector: '//*[@class = "price"]/span[1]'
+
+- total_price:
+    selector: '//*[@class = "price-total"]/span/span[1]'
+
+- assert_pro_num:
+    selector: '//div[@class = "quantity"]/input'
+
+
+#  ------------------------------------------- EDIT --------------------------------------------------------------
+
+- edit_button:
+    selector: '//*[@class = "cart-btn"]'
+
+- select_all:
+    selector: '//*[@id = "select-all"]'
+
+- del_button:
+    selector: '//*[@id = "del-selected"]'
+
+- drag_ele:
+    selector: '//*[@class = "deliver-server-of-date"]/span[1]'
+    target: '//*[@id = "checkout-cart"]/div[2]/div/div[1]/div[1]/div[1]'
+
+- del_SLIDE:
+    selector: '//*[@class = "del-card show-del-card"]'
+
+- continue_shop:
+    selector: '//*[@class= cart-empty]/div/a[1]'

@@ -1,0 +1,8 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:47:08 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_cart.test_cart_edit:test_cart_edit.py:28 2024-07-05 15:47:09 [test_cart_edit.test_cart_del_all_ph:28]-[INFO]:正在测试站点 https://test.cncest.com/ 的手机端cartEdit-全部删除模块
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:128 2024-07-05 15:47:15 [module_common.add_cart:128]-[DEBUG]:https://test.cncest.com/ 添加商品到购物车
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:88 2024-07-05 15:47:17 [moduleCart.click_edit:88]-[DEBUG]:https://test.cncest.com/在购物车内点击Edit按钮
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:95 2024-07-05 15:47:17 [moduleCart.click_selectAll:95]-[DEBUG]:https://test.cncest.com/在购物车内-Edit页面点击全选按钮
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:102 2024-07-05 15:47:17 [moduleCart.click_delButton:102]-[DEBUG]:https://test.cncest.com/在购物车内-Edit页面点击删除按钮
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:40 2024-07-05 15:47:19 [moduleCart.remove_assert:40]-[DEBUG]:https://test.cncest.com/购物车内移除商品断言0
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 15:47:19 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

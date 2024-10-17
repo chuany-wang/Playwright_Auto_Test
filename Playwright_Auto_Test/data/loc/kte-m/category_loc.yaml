@@ -1,0 +1,7 @@
+- all_pro:
+    locate: '//a[@href="collection/full"]'
+
+- cate_first:
+    locate: '//a[@class = "item "]'
+
+

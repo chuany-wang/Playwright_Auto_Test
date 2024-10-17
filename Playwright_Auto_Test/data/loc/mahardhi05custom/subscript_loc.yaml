@@ -1,0 +1,10 @@
+#  ------------------------------------------- 底部订阅 ------------------------------------------------------
+
+- input_email_foot:
+    locate: '//*[@class="common-footer"]/div[2]/div[1]/div/div/form/input[2]'
+
+- submit_button_subs_foot:
+    locate: '//*[@class="common-footer"]/div[2]/div[1]/div/div/form/button'
+
+- assert_alert:
+    locate: '//*[@id="subscript-layer"]/div/div[1]/div[2]/div[2]'

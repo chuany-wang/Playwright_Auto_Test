@@ -1,0 +1,8 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:47:44 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_cart.test_cart_remove:test_cart_remove.py:59 2024-07-05 15:47:44 [test_cart_remove.test_cart_remove_pc:59]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端 cartRemove 的结账模块
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:128 2024-07-05 15:47:55 [module_common.add_cart:128]-[DEBUG]:https://test.cncest.com/ 添加商品到购物车
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:140 2024-07-05 15:47:57 [module_common.view_cart:140]-[DEBUG]:https://test.cncest.com/ PC端商品详情页进入到购物车
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:24 2024-07-05 15:47:58 [moduleCart.remove_all_pro:24]-[DEBUG]:https://test.cncest.com/ 购物车内移除商品
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:32 2024-07-05 15:47:58 [moduleCart.make_sure_remove:32]-[DEBUG]:https://test.cncest.com/ 购物车内点击确认按钮
+[35mDEBUG   [0m modules.module_cart.moduleCart:moduleCart.py:40 2024-07-05 15:48:00 [moduleCart.remove_assert:40]-[DEBUG]:https://test.cncest.com/购物车内移除商品断言https://test.cncest.com/index.php?route=account/login
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:48:00 [conftest.create_page:30]-[INFO]:page session fixture closing.......

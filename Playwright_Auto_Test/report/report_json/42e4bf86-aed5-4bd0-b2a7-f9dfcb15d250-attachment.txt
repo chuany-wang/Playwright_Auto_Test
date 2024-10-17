@@ -1,0 +1,9 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:41:04 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_edit_address:test_edit_address.py:127 2024-07-05 15:41:05 [test_edit_address.test_edit_address_pc:127]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端EditAddress功能
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:15 2024-07-05 15:41:13 [module_address_book.address_book:15]-[DEBUG]:https://test.cncest.com/个人中心页面点击address_book
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:133 2024-07-05 15:41:14 [module_address_book.click_edit_add:133]-[DEBUG]:https://test.cncest.com/: 点击编辑地址
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:140 2024-07-05 15:41:15 [module_address_book.clean_oriName:140]-[DEBUG]:https://test.cncest.com/: 编辑地址清除原先文本
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:31 2024-07-05 15:41:15 [module_address_book.input_firstNa_add:31]-[DEBUG]:https://test.cncest.com/输入客户名xeWi
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:103 2024-07-05 15:41:17 [module_address_book.submit_add:103]-[DEBUG]:https://test.cncest.com/新增地址,点击确认
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:110 2024-07-05 15:41:17 [module_address_book.assert_add_address:110]-[DEBUG]:https://test.cncest.com/新增地址断言
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:41:17 [conftest.create_page:30]-[INFO]:page session fixture closing.......

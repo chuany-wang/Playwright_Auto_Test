@@ -1,0 +1,30 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:51:42 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_checkout.test_oceanpay_klarna:test_oceanpay_klarna.py:27 2024-07-05 15:51:42 [test_oceanpay_klarna.test_op_klarna_ph:27]-[INFO]:正在测试站点 https://test.cncest.com/的手机端 oceanPayKlarna 的结账模块
+[32mINFO    [0m cases.test_checkout.test_oceanpay_klarna:test_oceanpay_klarna.py:31 2024-07-05 15:51:42 [test_oceanpay_klarna.test_op_klarna_ph:31]-[INFO]:正在测试站点 https://test.cncest.com/ 的手机端 oceanPayKlarna的结账模块
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:119 2024-07-05 15:51:52 [module_common.click_buy_now:119]-[DEBUG]:https://test.cncest.com/ 点击BuyNow按钮
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:156 2024-07-05 15:51:56 [module_common.input_email:156]-[DEBUG]:https://test.cncest.com/ 输入邮箱
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:167 2024-07-05 15:51:56 [module_common.select_country:167]-[DEBUG]:https://test.cncest.com/: 选择客户国家
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:174 2024-07-05 15:51:56 [module_common.input_firstname:174]-[DEBUG]:https://test.cncest.com/: 输入客户名
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:181 2024-07-05 15:51:56 [module_common.input_lastname:181]-[DEBUG]:https://test.cncest.com/: 输入客户姓
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:189 2024-07-05 15:51:56 [module_common.input_address:189]-[DEBUG]:https://test.cncest.com/: 输入客户地址
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:196 2024-07-05 15:51:56 [module_common.input_shipping_city:196]-[DEBUG]:https://test.cncest.com/: 输入客户付款城市
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:203 2024-07-05 15:51:56 [module_common.input_zipcode:203]-[DEBUG]:https://test.cncest.com/输入客户邮编
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:214 2024-07-05 15:51:57 [module_common.select_states:214]-[DEBUG]:https://test.cncest.com/: 选择客户States
+[35mDEBUG   [0m modules.module_common.module_common:module_common.py:221 2024-07-05 15:51:57 [module_common.input_phone:221]-[DEBUG]:https://test.cncest.com/: 输入客户手机号
+[1m[31mERROR   [0m modules.module_common.module_common:module_common.py:230 2024-07-05 15:52:27 [module_common.click_save_button:230]-[ERROR]:https://test.cncest.com/: 点击save&Continue 按钮Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"app\"]/div/div[3]/div/div[4]/button")
+
+[1m[31mERROR   [0m modules.module_checkout.module_op_klarna:module_op_klarna.py:26 2024-07-05 15:52:57 [module_op_klarna.choose_op_klarna:26]-[ERROR]:https://test.cncest.com/手机端选择 oceanPayKlarna 结账出现异常:Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//div[@id=\"payment-of-op_klarna\"]/../div") to be visible
+
+[1m[31mERROR   [0m modules.module_checkout.module_op_klarna:module_op_klarna.py:44 2024-07-05 15:53:27 [module_op_klarna.paynow_op_klarna:44]-[ERROR]:https://test.cncest.com/ 手机端oceanPayKlarna点击payNow 按钮出现异常:Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id =\"payment-of-op_klarna\"]/form/div/div/button") to be visible
+
+[35mDEBUG   [0m modules.module_checkout.module_op_klarna:module_op_klarna.py:34 2024-07-05 15:53:27 [module_op_klarna.iframe_oceanPayKl:34]-[DEBUG]:https://test.cncest.com/ 选择oceanPayKlarna获取Iframe 
+[1m[31mERROR   [0m modules.module_checkout.module_op_klarna:module_op_klarna.py:51 2024-07-05 15:53:57 [module_op_klarna.click_authorize_op_klarna:51]-[ERROR]:https://test.cncest.com/ 手机端 手机端 oceanPayKlarna点击确认按钮:Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for frame_locator("//*[@id=\"ifrm_klarna_checkout\"]").locator("//*[@id=\"authorize\"]")
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 15:53:57 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

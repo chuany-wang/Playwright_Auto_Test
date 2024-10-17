@@ -1,0 +1,8 @@
+[32m2024-07-05 15:37:55[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:37:56[0m [35m[MainThread][0m-[36m[test_contact_us[0m.[36mtest_contact_us_pc[0m:[36m57][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的PC端ContactUs功能[0m
+[32m2024-07-05 15:38:03[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_contact_us[0m:[36m252][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击contact_us[0m
+[32m2024-07-05 15:38:33[0m [35m[MainThread][0m-[36m[module_account[0m.[36massert_contact_us[0m:[36m265][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/: contact_us断言出现异常Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//form[@class = \"contact-form\"]")
+[0m
+[32m2024-07-05 15:38:33[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

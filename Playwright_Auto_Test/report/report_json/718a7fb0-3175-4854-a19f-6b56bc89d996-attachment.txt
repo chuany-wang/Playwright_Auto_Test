@@ -1,0 +1,27 @@
+[32m2024-07-05 15:55:43[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:55:44[0m [35m[MainThread][0m-[36m[test_pacypay_cashier[0m.[36mtest_pacypay_casher_pc[0m:[36m59][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/的PacyPayCashier 结账模块[0m
+[32m2024-07-05 15:55:53[0m [35m[MainThread][0m-[36m[module_common[0m.[36mclick_buy_now[0m:[36m119][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 点击BuyNow按钮[0m
+[32m2024-07-05 15:55:53[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_email[0m:[36m156][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 输入邮箱[0m
+[32m2024-07-05 15:55:58[0m [35m[MainThread][0m-[36m[module_common[0m.[36mselect_country[0m:[36m167][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 选择客户国家[0m
+[32m2024-07-05 15:55:58[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_firstname[0m:[36m174][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户名[0m
+[32m2024-07-05 15:55:58[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_lastname[0m:[36m181][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户姓[0m
+[32m2024-07-05 15:55:58[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_address[0m:[36m189][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户地址[0m
+[32m2024-07-05 15:55:59[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_shipping_city[0m:[36m196][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户付款城市[0m
+[32m2024-07-05 15:55:59[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_zipcode[0m:[36m203][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户邮编[0m
+[32m2024-07-05 15:56:01[0m [35m[MainThread][0m-[36m[module_common[0m.[36mselect_states[0m:[36m214][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 选择客户States[0m
+[32m2024-07-05 15:56:01[0m [35m[MainThread][0m-[36m[module_common[0m.[36minput_phone[0m:[36m221][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 输入客户手机号[0m
+[32m2024-07-05 15:56:01[0m [35m[MainThread][0m-[36m[module_common[0m.[36mclick_save_button[0m:[36m228][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 点击save&Continue 按钮[0m
+[32m2024-07-05 15:56:31[0m [35m[MainThread][0m-[36m[moudle_pacyay_casher[0m.[36mchoose_pacypay_ca[0m:[36m24][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/ 选择 PacyPayCasher 结账出现异常:Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@value=\"pacypayment_cashier\"]/../div")
+[0m
+[32m2024-07-05 15:57:01[0m [35m[MainThread][0m-[36m[moudle_pacyay_casher[0m.[36mpaynow_pacypay_ca[0m:[36m31][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/ 选择PacyPayCasher点击PayNow结账出现异常:Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//input[@id=\"PacyPay_checkout_button_cashier\"]")
+[0m
+[32m2024-07-05 15:57:31[0m [35m[MainThread][0m-[36m[moudle_pacyay_casher[0m.[36massert_pacypay_ca[0m:[36m39][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/ 选择PacyPayCasher获取断言地址出现异常:Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@class = \"logo\"]") to be visible
+[0m
+[32m2024-07-05 15:57:31[0m [35m[MainThread][0m-[36m[test_pacypay_cashier[0m.[36mtest_pacypay_casher_pc[0m:[36m70][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/PacyPayCashier断言URL None [0m
+[32m2024-07-05 15:57:31[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

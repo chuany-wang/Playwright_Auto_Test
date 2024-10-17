@@ -1,0 +1,243 @@
+#  ------------------------------------------- register ------------------------------------------------------
+
+- register:
+    selector: '//*[@id= "content"]/div[2]/ul/li[2]'
+
+- firstname_reg:
+    selector: '//input[@id = "input-firstname"]'
+    value: 'Test'
+
+- lastname_reg:
+    selector: '//input[@id = "input-lastname"]'
+    value: 'Person-us'
+
+- email_reg:
+    selector: '//input[@id = "input-email"]'
+    value: 'cncest.test@gmail.com'
+
+- telephone_reg:
+    selector: '//input[@id = "input-telephone"]'
+    value: '13106683312'
+
+- password_reg:
+    selector: '//*[@id= "input-password"]'
+    value: '123456'
+
+- confirm_reg:
+    selector: '//*[@id = "input-confirm"]'
+    value: '123456'
+
+- button_reg:
+    selector: '//input[@class="submit-button"]'
+
+- assert_reg:
+    selector: '//*[@id ="account"]/div[4]/div'
+    name: 'class'
+
+#  ------------------------------------------- 登出 ------------------------------------------------------------------
+
+- logoutButton:
+    selector: '//*[@class = "logout"]/span[1]'
+
+- sure_logout:
+    selector: '//*[@class = "sure"]'
+
+#  ------------------------------------------- My ORDER ---------------------------------------------------------------
+
+- view_all:
+    selector: '//*[@class = "account-orders"]/div[1]/a'
+
+- search_order:
+    selector: '//*[@class = "order-list-search"]/span[2]'
+
+- input_search:
+    selector: '//*[@class = "search-box"]/div[2]/input'
+    value: test
+
+- click_search:
+    selector: '//*[@class = "search-box"]/div[2]/input'
+
+
+#  ------------------------------------------- personal-info------------------------------------------------------------
+
+- personal_info:
+    selector: '//a[contains(@href,"route=account/edit")]'
+
+#                                -------------- FirstName----------------
+- firName_info:
+    selector: '//*[@class = "field-list"]/div[1]/a'
+
+- clean_button:
+    selector: '//*[@id = "clearBtn"]'
+
+- new_name:
+    selector: '//*[@id= "inputData"]'
+
+- save_button:
+    selector: '//*[@class= "save"]'
+
+- assert_firstName:
+    selector: '//*[@id= "account-edit"]/div[2]/div[2]/div[1]/a/span'
+
+- picture:
+    selector: '//*[@id="account-edit"]/div[2]/div[1]/img'
+
+- changePicBut:
+    selector: '//*[@id="account-edit"]/div[2]/div[1]/input'
+
+
+#                                -------------- LastName----------------
+- LastName_info:
+    selector: '//*[@class = "field-list"]/div[2]/a'
+
+- assert_LastName:
+    selector: '//*[@id= "account-edit"]/div[2]/div[2]/div[2]/a/span'
+
+#                                -------------- phone----------------
+- phono_info:
+    selector: '//*[@class = "field-list"]/div[4]/a'
+
+- assert_phono:
+    selector: '//*[@id= "account-edit"]/div[2]/div[2]/div[4]/a/span'
+
+
+#  ------------------------------------------- Edit Password ------------------------------------------------------
+
+- edit_password:
+    #    selector: '//*[@class= "other-service-list"]/a[2]'
+    selector: '//a[contains(@href,"index.php?route=account/password")]'
+
+- input_new_password:
+    selector: '//*[@name= "password"]'
+    value: '123456'
+
+- confirm_new_password:
+    selector: '//*[@name= "confirm"]'
+    value: '123456'
+
+- submit_changePas:
+    selector: '//*[@id ="password"]/div[2]/form/button'
+
+- continue_changePas:
+    selector: '//a[contains(@href,"route=account/login")]'
+
+#  ------------------------------------------- Address Book-------------------------------------------------------------
+- address_book:
+    selector: '//a[contains(@href,"route=account/address")]'
+
+- new_address:
+    selector: '//a[contains(@href,"account/address/add")]'
+
+- inputFirstName:
+    selector: '//input[@name="firstname"]'
+
+- inputLastName:
+    selector: '//input[@name="lastname"]'
+
+- inputAddress:
+    selector: '//input[@name="address_1"]'
+    value: '509 Amsterdam Ave'
+
+- inputShipCity:
+    selector: '//input[@name="city"]'
+    value: 'New York'
+
+- inputZipCode:
+    selector: '//input[@name="postcode"]'
+    value: '10024'
+
+- selectState:
+    selector: '//select[@name="zone_id"]'
+    index: 2
+
+- set_default:
+    selector: '//*[@class="switch-input-box"]/div'
+
+- submit_add:
+    selector: '//*[@id ="app"]/form/button'
+
+- assert_add_address:
+    selector: '//*[@class="address-box"]/div[1]/div[2]/div[1]'
+
+#                                   -------------- LastName----------------
+
+- edit_address:
+    selector: '//*[@id="app"]/div/div[1]/div[2]/div[3]/a'
+
+
+#  ------------------------------------------- 我的订阅 ----------------------------------------------------------------
+
+- my_subscriber:
+    selector: '//a[contains(@href,"?route=account/newsletter")]'
+
+- submit_subscribe:
+    selector: '//*[@id = "newsletter-submit"]'
+
+
+#  ------------------------------------------- contact us --------------------------------------------------------------
+
+- contact_us:
+    selector: '//*[@id = "account-account"]/div[7]/a[1]'
+
+- assert_contact_us:
+    selector: '//form[@class = "contact-form"]'
+
+#  ------------------------------------------- about us ----------------------------------------------------------------
+
+- about_us:
+    selector: '//*[@id = "account-account"]/div[7]/a[2]'
+
+- assert_about_us:
+    selector: '//a[@class = "register-btn"]'
+
+
+#  ------------------------------------------- Recently Viewed ----------------------------------------------------------------
+
+- judge_list:
+    selector: '//*[@class = "content-list"]'
+
+- recently_Viewed:
+    selector: '//a[contains(@href,"route=account/recently_viewed")]'
+
+- add_But:
+    selector: '//*[@id = "recently_viewed"]/div[2]/div[1]/div/div/div/div[2]/div[2]/div'
+
+- similar_button:
+    selector: '//*[@id = "recently_viewed"]/div[2]/div[1]/div/div/div/div[2]/div[2]/button'
+
+#  ------------------------------------------- forget password ---------------------------------------------------------
+
+- forget_button:
+    selector: '//a[contains(@href,"route=account/forgotten")]'
+
+- input_email_forget:
+    selector: '//*[@name = "email"]'
+    value: 'cncest.test@gmail.com'
+
+- submit_forget:
+    selector: '//*[contains(@action,"route=account/forgotten")]/button'
+
+- asset_forget_Pass:
+    selector: '//*[@id = "login-div"]/form/div[4]/div[1]/div'
+    name: 'class'
+
+#  ------------------------------------------- 谷歌登录  ----------------------------------------------------------
+
+- google_login:
+    selector: '//a[contains(@href,"google.com")]'
+
+#  -------------------------------------------my order-refund --------------------------------------------------------
+
+- refund_button:
+    selector: '//a[contains(@href,"order_status=1101")]'
+
+
+#  -------------------------------------------My Return--------------------------------------------------------
+
+- My_return:
+    selector: '//a[contains(@href,"route=account/return")]/div/span[2]'
+
+#  ------------------------------------------- Reviews  --------------------------------------------------------
+
+- Reviews:
+    selector: '//a[contains(@href,"route=account/review")]/div/span[2]'

@@ -1,0 +1,10 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:41:31 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_edit_password:test_edit_password.py:54 2024-07-05 15:41:31 [test_edit_password.test_edit_password_pc:54]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端修改密码功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:161 2024-07-05 15:41:40 [module_account.click_edit_password:161]-[DEBUG]:https://test.cncest.com/点击修改密码按钮
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:168 2024-07-05 15:41:41 [module_account.input_current_pw:168]-[DEBUG]:https://test.cncest.com/输入新密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:175 2024-07-05 15:41:41 [module_account.input_new_pw:175]-[DEBUG]:https://test.cncest.com/输入新密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:182 2024-07-05 15:41:41 [module_account.input_new_pw_sec:182]-[DEBUG]:https://test.cncest.com/:二次输入新密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:189 2024-07-05 15:41:42 [module_account.submit_pw_confirm:189]-[DEBUG]:https://test.cncest.com/确认密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:199 2024-07-05 15:41:43 [module_account.confirm_success:199]-[DEBUG]:https://test.cncest.com/修改密码完成后点击确认
+[35mDEBUG   [0m common.basic:basic.py:69 2024-07-05 15:41:43 [basic.basic_screen_shot:69]-[DEBUG]:截图成功已经存储在: F:\Playwright_Project\report\report_screen\修改密码_PC端_1720165303439.png
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:41:43 [conftest.create_page:30]-[INFO]:page session fixture closing.......

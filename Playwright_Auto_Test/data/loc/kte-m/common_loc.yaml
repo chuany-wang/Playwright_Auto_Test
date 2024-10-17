@@ -1,0 +1,111 @@
+- my_account:
+    selector: '//a[contains(@href,"route=module_account/module_account")]'
+
+#  ------------------------------------------- login_case ------------------------------------------------------
+
+- inputEmail_login:
+    selector: "//input[@name = 'email']"
+    value: "cncest.test@gmail.com"
+
+- inputPassword_login:
+    selector: "//input[@type = 'password']"
+    value: "123456"
+
+- remember_login:
+    selector: '//input[@name="remember"]'
+
+- loginButton_login:
+    selector: '//button[@class="submit-button"]'
+
+
+#  ------------------------------------------- search ---------------------------------------------------------
+- search_home:
+    selector: '//div[@class = "search _top-search-box"]'
+
+- search_input:
+    selector: '//input[@class = "input-with-magnifier"]'
+
+- search_icon:
+    selector: '//*[@id = "product-search"]/form/div[1]/div[1]/i'
+
+#  -------------------------------------------------- pro page ---------------------------------------------------------
+
+- pro_info:
+    selector: '//*[@id="product_list"]/div[1]/div/div[2]/a'
+
+- buy_now:
+    selector: '//*[@name="product_id"]/../div[2]/button[2]'
+
+- add_cart:
+    selector: '//button[@class = "action-btn success-btn _add-cart "]'
+
+- checkout_cart:
+    selector: '//*[@id="page-cart-total"]/../a'
+
+#  ------------------------------------------- Edit customer info ------------------------------------------------------
+
+- inputEmail:
+    selector: '//*[@name="email"]'
+    value: 'cncest.test@gmail.com'
+
+- temp:
+    selector: '//*[@name="email"]'
+
+- selectCountry:
+    selector: '//select[@name="country_id"]'
+    index: 1
+
+- inputFirstName:
+    selector: '//input[@name="firstname"]'
+    value: "Test"
+
+- inputLastName:
+    selector: '//input[@name="lastname"]'
+    value: "Person-test"
+
+- inputAddress:
+    selector: '//input[@name="address_1"]'
+    value: '2693 Test Rd'
+
+- inputShipCity:
+    selector: '//input[@name="city"]'
+    value: 'Test City'
+
+- inputZipCode:
+    selector: '//input[@name="postcode"]'
+    value: 'V7H 1l9'
+
+- selectState:
+    selector: '//select[@name="zone_id"]'
+    index: 2
+
+- inputPhone:
+    selector: '//input[@name="telephone"]'
+    value: "+15197438620"
+
+- saveButton:
+    selector: '//*[@id="app"]/div/div[3]/div/div[4]/button'
+
+#  ------------------------------------------- cate on home page--------------------------------------------------------
+
+- cate_button:
+    selector: '//*[@href="#"]'
+
+
+#  ------------------------------------------- select country ---------------------------------------------------------
+- current_country:
+    selector: '//*[@id="cate-layer"]/div/div[2]/div/ul[2]/li[1]/div[1]/div'
+
+- open_list_country_ph:
+    selector: '//*[@id="cate-layer"]/div/div[2]/div/ul[2]/li[1]/div[1]/i'
+
+- click_select_country_ph:
+    selector: '//*[@id="cate-layer"]/div/div[2]/div/ul[2]/li[1]/div[2]/div[2]/ul/li[3]/a'
+
+
+#  ------------------------------------------- select language ----------------------------------------------------------
+- select_language:
+    selector: '//*[@class= "cate-layer-body"]/div/ul[2]/li/div[1]/i'
+
+
+

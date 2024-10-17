@@ -1,0 +1,22 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:38:34 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_edit_Info:test_edit_Info.py:28 2024-07-05 15:38:34 [test_edit_Info.test_edit_info_ph:28]-[INFO]:正在测试站点https://test.cncest.com/ 手机端的个人中心编辑个人信息功能
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:18 2024-07-05 15:38:48 [module_edit_info.click_edit_info:18]-[DEBUG]:https://test.cncest.com/ 个人中心页面点击Edit Info
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:51 2024-07-05 15:38:53 [module_edit_info.click_FirstNa:51]-[DEBUG]:https://test.cncest.com/ 个点击修改FirstName
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:58 2024-07-05 15:38:55 [module_edit_info.click_input:58]-[DEBUG]:https://test.cncest.com/ 点击FirstName的输入框
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:65 2024-07-05 15:38:57 [module_edit_info.click_clean_button:65]-[DEBUG]:https://test.cncest.com/ 点击清除原有的FirstName
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:74 2024-07-05 15:38:57 [module_edit_info.input_new_name:74]-[DEBUG]:https://test.cncest.com/ 输入新的的name
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:81 2024-07-05 15:39:00 [module_edit_info.click_save:81]-[DEBUG]:https://test.cncest.com/ 点击Save 按钮
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:88 2024-07-05 15:39:01 [module_edit_info.assert_first:88]-[DEBUG]:https://test.cncest.com/ 断言FirstName:IGsm 
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:110 2024-07-05 15:39:03 [module_edit_info.click_lastNa:110]-[DEBUG]:https://test.cncest.com/点击修改LastName
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:58 2024-07-05 15:39:06 [module_edit_info.click_input:58]-[DEBUG]:https://test.cncest.com/ 点击FirstName的输入框
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:65 2024-07-05 15:39:08 [module_edit_info.click_clean_button:65]-[DEBUG]:https://test.cncest.com/ 点击清除原有的FirstName
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:74 2024-07-05 15:39:08 [module_edit_info.input_new_name:74]-[DEBUG]:https://test.cncest.com/ 输入新的的name
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:81 2024-07-05 15:39:11 [module_edit_info.click_save:81]-[DEBUG]:https://test.cncest.com/ 点击Save 按钮
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:124 2024-07-05 15:39:12 [module_edit_info.assert_lastName:124]-[DEBUG]:https://test.cncest.com/断言LastName:IGsm 
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:135 2024-07-05 15:39:14 [module_edit_info.click_phone:135]-[DEBUG]:https://test.cncest.com/点击修改Phone
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:58 2024-07-05 15:39:17 [module_edit_info.click_input:58]-[DEBUG]:https://test.cncest.com/ 点击FirstName的输入框
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:65 2024-07-05 15:39:19 [module_edit_info.click_clean_button:65]-[DEBUG]:https://test.cncest.com/ 点击清除原有的FirstName
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:142 2024-07-05 15:39:19 [module_edit_info.input_new_phone:142]-[DEBUG]:https://test.cncest.com/输入新的的phone
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:81 2024-07-05 15:39:23 [module_edit_info.click_save:81]-[DEBUG]:https://test.cncest.com/ 点击Save 按钮
+[35mDEBUG   [0m modules.module_account.module_edit_info:module_edit_info.py:156 2024-07-05 15:39:23 [module_edit_info.assert_phone:156]-[DEBUG]:https://test.cncest.com/断言修改手机号:135693023253
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 15:39:23 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

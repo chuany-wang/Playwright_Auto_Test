@@ -1,0 +1,9 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:46:13 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_register:test_register.py:60 2024-07-05 15:46:13 [test_register.test_register_pc:60]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端注册功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:53 2024-07-05 15:46:18 [module_account.input_firstname_reg:53]-[DEBUG]:https://test.cncest.com/注册时输入firstname
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:60 2024-07-05 15:46:18 [module_account.input_lastname_reg:60]-[DEBUG]:https://test.cncest.com/注册时输入lastname
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:67 2024-07-05 15:46:18 [module_account.input_email_reg:67]-[DEBUG]:https://test.cncest.com/注册时输入邮箱
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:81 2024-07-05 15:46:18 [module_account.input_password_reg:81]-[DEBUG]:https://test.cncest.com/注册时输入密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:95 2024-07-05 15:46:19 [module_account.click_register_reg:95]-[DEBUG]:https://test.cncest.com/点击注册按钮
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:102 2024-07-05 15:46:19 [module_account.assert_reg:102]-[DEBUG]:https://test.cncest.com/注册断言元素标签text-danger
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:46:19 [conftest.create_page:30]-[INFO]:page session fixture closing.......

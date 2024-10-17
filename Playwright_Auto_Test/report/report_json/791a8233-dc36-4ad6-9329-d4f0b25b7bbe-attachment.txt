@@ -1,0 +1,5 @@
+[32m2024-07-05 15:46:50[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:46:50[0m [35m[MainThread][0m-[36m[test_subscribe[0m.[36mtest_subscribe_pc[0m:[36m58][0m-[1m[INFO][0m: [1m正在测试站点https://test.cncest.com/ PC端的我的订阅功能[0m
+[32m2024-07-05 15:47:05[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_my_subscribe[0m:[36m217][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击我的订阅[0m
+[32m2024-07-05 15:47:07[0m [35m[MainThread][0m-[36m[module_account[0m.[36msubmit_subscribe[0m:[36m224][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击我的订阅的确认按钮[0m
+[32m2024-07-05 15:47:07[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

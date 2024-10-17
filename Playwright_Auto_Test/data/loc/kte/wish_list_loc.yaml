@@ -1,0 +1,25 @@
+#  ------------------------------------------- wish List---------------------------------------------------------------
+
+- wishList_button:
+    locate: '//a[contains(@href,"route=account/wishlist")]'
+
+- signButton:
+    locate: '//a[@class="toLogin"]'
+
+- goShopping:
+    locate: '//a[@class="toShopping"]'
+
+- addWishButton:
+    locate: '//*[@class = "product-top"]/div[2]'
+
+- wishList_edit:
+    locate: '//*[@class="wishlist-top"]/button'
+
+- select_all_WL:
+    locate: '//*[@id="select-all"]'
+
+- del_all_WL:
+    locate: '//*[@id="del-selected"]'
+
+- assert_empty_WL:
+    locate: '//*[@class="wishlist-empty"]'

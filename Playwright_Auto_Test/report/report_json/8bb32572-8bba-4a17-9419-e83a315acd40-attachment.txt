@@ -1,0 +1,8 @@
+[32m2024-07-05 15:43:24[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:43:25[0m [35m[MainThread][0m-[36m[test_my_return[0m.[36mtest_my_return_pc[0m:[36m54][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ pc端的 MyReturn功能[0m
+[32m2024-07-05 15:44:00[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_MyReturn[0m:[36m343][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/: 点击My return出现异常Page.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//a[contains(@href,\"route=account/return\")]/div/span[2]")
+[0m
+[32m2024-07-05 15:44:01[0m [35m[MainThread][0m-[36m[basic[0m.[36mbasic_screen_shot[0m:[36m69][0m-[34m[1m[DEBUG][0m: [34m[1m截图成功已经存储在: F:\Playwright_Project\report\report_screen\My Return_1720165440924.png[0m
+[32m2024-07-05 15:44:01[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

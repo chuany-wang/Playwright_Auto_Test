@@ -1,0 +1,16 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:40:34 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_edit_address:test_edit_address.py:96 2024-07-05 15:40:34 [test_edit_address.test_add_address_pc:96]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端add_address功能
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:15 2024-07-05 15:40:41 [module_address_book.address_book:15]-[DEBUG]:https://test.cncest.com/个人中心页面点击address_book
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:24 2024-07-05 15:40:44 [module_address_book.add_Address:24]-[DEBUG]:https://test.cncest.com/添加New_address
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:31 2024-07-05 15:40:45 [module_address_book.input_firstNa_add:31]-[DEBUG]:https://test.cncest.com/输入客户名xOMI
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:38 2024-07-05 15:40:45 [module_address_book.input_lastNa_add:38]-[DEBUG]:https://test.cncest.com/输入客户姓xOMI
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:45 2024-07-05 15:40:45 [module_address_book.input_address_add:45]-[DEBUG]:https://test.cncest.com/输入客户地址
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:53 2024-07-05 15:40:45 [module_address_book.input_city_add:53]-[DEBUG]:https://test.cncest.com/ 输入城市 
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:64 2024-07-05 15:40:51 [module_address_book.select_country:64]-[DEBUG]:https://test.cncest.com/: 选择客户国家
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:71 2024-07-05 15:40:51 [module_address_book.input_postCode_add:71]-[DEBUG]:https://test.cncest.com/ 输入客户邮编
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:89 2024-07-05 15:40:57 [module_address_book.select_states_add:89]-[DEBUG]:https://test.cncest.com/: 选择客户States
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:96 2024-07-05 15:40:59 [module_address_book.set_default_add:96]-[DEBUG]:https://test.cncest.com/设为默认地址
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:103 2024-07-05 15:41:03 [module_address_book.submit_add:103]-[DEBUG]:https://test.cncest.com/新增地址,点击确认
+[35mDEBUG   [0m modules.module_account.module_address_book:module_address_book.py:110 2024-07-05 15:41:03 [module_address_book.assert_add_address:110]-[DEBUG]:https://test.cncest.com/新增地址断言
+[35mDEBUG   [0m cases.test_account.test_edit_address:test_edit_address.py:109 2024-07-05 15:41:03 [test_edit_address.test_add_address_pc:109]-[DEBUG]:新增地址断言,xOMI xOMI
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:41:03 [conftest.create_page:30]-[INFO]:page session fixture closing.......

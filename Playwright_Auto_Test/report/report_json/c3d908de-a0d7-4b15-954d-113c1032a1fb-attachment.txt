@@ -1,0 +1,7 @@
+[32m2024-07-05 15:39:23[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:39:24[0m [35m[MainThread][0m-[36m[test_edit_Info[0m.[36mtest_edit_info_pc[0m:[36m76][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ pc端的个人中心编辑个人信息功能[0m
+[32m2024-07-05 15:39:30[0m [35m[MainThread][0m-[36m[module_edit_info[0m.[36mclick_edit_info[0m:[36m18][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 个人中心页面点击Edit Info[0m
+[32m2024-07-05 15:39:31[0m [35m[MainThread][0m-[36m[module_edit_info[0m.[36minput_new_name[0m:[36m74][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 输入新的的name[0m
+[32m2024-07-05 15:39:32[0m [35m[MainThread][0m-[36m[module_edit_info[0m.[36mclick_save[0m:[36m81][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 点击Save 按钮[0m
+[32m2024-07-05 15:39:32[0m [35m[MainThread][0m-[36m[module_edit_info[0m.[36massert_first[0m:[36m88][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 断言FirstName:prIE [0m
+[32m2024-07-05 15:39:32[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

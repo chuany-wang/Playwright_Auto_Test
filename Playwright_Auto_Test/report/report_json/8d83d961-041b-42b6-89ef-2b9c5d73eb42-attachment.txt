@@ -1,0 +1,16 @@
+[32m2024-07-05 15:39:33[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m37][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:39:33[0m [35m[MainThread][0m-[36m[test_edit_address[0m.[36mtest_add_address_ph[0m:[36m30][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的手机端add_address功能[0m
+[32m2024-07-05 15:39:41[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36maddress_book[0m:[36m15][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/个人中心页面点击address_book[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36madd_Address[0m:[36m24][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/添加New_address[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_firstNa_add[0m:[36m31][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户名EMuE[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_lastNa_add[0m:[36m38][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户姓EMuE[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_address_add[0m:[36m45][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户地址[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_city_add[0m:[36m53][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 输入城市 [0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mselect_country[0m:[36m66][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/: 选择客户国家出现异常: 'selectCountry'[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_postCode_add[0m:[36m71][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/ 输入客户邮编[0m
+[32m2024-07-05 15:39:43[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mselect_states_add[0m:[36m89][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 选择客户States[0m
+[32m2024-07-05 15:39:44[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mset_default_add[0m:[36m96][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/设为默认地址[0m
+[32m2024-07-05 15:39:48[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36msubmit_add[0m:[36m103][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/新增地址,点击确认[0m
+[32m2024-07-05 15:39:48[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36massert_add_address[0m:[36m110][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/新增地址断言[0m
+[32m2024-07-05 15:39:48[0m [35m[MainThread][0m-[36m[test_edit_address[0m.[36mtest_add_address_ph[0m:[36m43][0m-[34m[1m[DEBUG][0m: [34m[1m新增地址断言,EMuE EMuE[0m
+[32m2024-07-05 15:39:48[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m47][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

@@ -1,0 +1,7 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:37:55 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_contact_us:test_contact_us.py:57 2024-07-05 15:37:56 [test_contact_us.test_contact_us_pc:57]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端ContactUs功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:252 2024-07-05 15:38:03 [module_account.click_contact_us:252]-[DEBUG]:https://test.cncest.com/点击contact_us
+[1m[31mERROR   [0m modules.module_account.module_account:module_account.py:265 2024-07-05 15:38:33 [module_account.assert_contact_us:265]-[ERROR]:https://test.cncest.com/: contact_us断言出现异常Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//form[@class = \"contact-form\"]")
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:38:33 [conftest.create_page:30]-[INFO]:page session fixture closing.......

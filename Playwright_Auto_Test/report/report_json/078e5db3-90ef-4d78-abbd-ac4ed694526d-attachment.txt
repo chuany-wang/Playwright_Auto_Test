@@ -1,0 +1,12 @@
+[32mINFO    [0m cases.conftest:conftest.py:37 2024-07-05 15:46:03 [conftest.page_phone:37]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_register:test_register.py:30 2024-07-05 15:46:04 [test_register.test_register_ph:30]-[INFO]:正在测试站点 https://test.cncest.com/ 的 手机端注册功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:46 2024-07-05 15:46:10 [module_account.click_register_title:46]-[DEBUG]:https://test.cncest.com/ 个人中心点击 register 
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:53 2024-07-05 15:46:10 [module_account.input_firstname_reg:53]-[DEBUG]:https://test.cncest.com/注册时输入firstname
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:60 2024-07-05 15:46:10 [module_account.input_lastname_reg:60]-[DEBUG]:https://test.cncest.com/注册时输入lastname
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:67 2024-07-05 15:46:10 [module_account.input_email_reg:67]-[DEBUG]:https://test.cncest.com/注册时输入邮箱
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:74 2024-07-05 15:46:10 [module_account.input_telephone_reg:74]-[DEBUG]:https://test.cncest.com/注册时输入电话号码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:81 2024-07-05 15:46:10 [module_account.input_password_reg:81]-[DEBUG]:https://test.cncest.com/注册时输入密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:88 2024-07-05 15:46:10 [module_account.input_confirm_reg:88]-[DEBUG]:https://test.cncest.com/注册时输入确认密码
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:95 2024-07-05 15:46:12 [module_account.click_register_reg:95]-[DEBUG]:https://test.cncest.com/点击注册按钮
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:102 2024-07-05 15:46:12 [module_account.assert_reg:102]-[DEBUG]:https://test.cncest.com/注册断言元素标签text-danger
+[32mINFO    [0m cases.conftest:conftest.py:47 2024-07-05 15:46:12 [conftest.page_phone:47]-[INFO]:page session fixture closing.......

@@ -1,0 +1,8 @@
+[32m2024-07-05 15:41:18[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m37][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:41:19[0m [35m[MainThread][0m-[36m[test_edit_password[0m.[36mtest_edit_password_ph[0m:[36m28][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的手机端修改密码功能[0m
+[32m2024-07-05 15:41:27[0m [35m[MainThread][0m-[36m[module_account[0m.[36mclick_edit_password[0m:[36m161][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/点击修改密码按钮[0m
+[32m2024-07-05 15:41:28[0m [35m[MainThread][0m-[36m[module_account[0m.[36minput_new_pw[0m:[36m175][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入新密码[0m
+[32m2024-07-05 15:41:28[0m [35m[MainThread][0m-[36m[module_account[0m.[36minput_new_pw_sec[0m:[36m182][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/:二次输入新密码[0m
+[32m2024-07-05 15:41:29[0m [35m[MainThread][0m-[36m[module_account[0m.[36msubmit_pw_confirm[0m:[36m189][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/确认密码[0m
+[32m2024-07-05 15:41:30[0m [35m[MainThread][0m-[36m[module_account[0m.[36mconfirm_success[0m:[36m199][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/修改密码完成后点击确认[0m
+[32m2024-07-05 15:41:30[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m47][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

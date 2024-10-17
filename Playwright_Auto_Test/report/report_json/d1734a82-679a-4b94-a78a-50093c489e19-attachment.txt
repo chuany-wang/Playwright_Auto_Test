@@ -1,0 +1,13 @@
+[32m2024-07-05 15:39:49[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m37][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:39:50[0m [35m[MainThread][0m-[36m[test_edit_address[0m.[36mtest_edit_address_ph[0m:[36m62][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的手机端EditAddress功能[0m
+[32m2024-07-05 15:40:01[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36maddress_book[0m:[36m15][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/个人中心页面点击address_book[0m
+[32m2024-07-05 15:40:02[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mclick_edit_add[0m:[36m133][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 点击编辑地址[0m
+[32m2024-07-05 15:40:03[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mclean_oriName[0m:[36m140][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 编辑地址清除原先文本[0m
+[32m2024-07-05 15:40:03[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_firstNa_add[0m:[36m31][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户名mUoq[0m
+[32m2024-07-05 15:40:03[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36msubmit_add[0m:[36m103][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/新增地址,点击确认[0m
+[32m2024-07-05 15:40:33[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36massert_add_address[0m:[36m113][0m-[31m[1m[ERROR][0m: [31m[1mhttps://test.cncest.com/: 增地址断言出现异常: Locator.inner_text: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@class=\"address-box\"]/div[1]/div[2]/div[1]")
+[0m
+[32m2024-07-05 15:40:33[0m [35m[MainThread][0m-[36m[basic[0m.[36mbasic_screen_shot[0m:[36m69][0m-[34m[1m[DEBUG][0m: [34m[1m截图成功已经存储在: F:\Playwright_Project\report\report_screen\EditAddress_1720165233270.png[0m
+[32m2024-07-05 15:40:33[0m [35m[MainThread][0m-[36m[conftest[0m.[36mpage_phone[0m:[36m47][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

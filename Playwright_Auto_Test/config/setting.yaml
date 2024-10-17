@@ -1,0 +1,44 @@
+### 通用参数相关配置
+- CURRENCY:
+    CASE_TYPE: 'web'                 # 项目类型   web
+    IS_CLEAN_REPORT: True               # 是否清除 测试历史测试报告结果 * 默认清除
+    LEVEL: 'DEBUG'                     # 'INFO'  #'DEBUG'  # INFO 日志级别
+
+#### WEB  ui相关配置
+- WEB_UI:
+    WEB_WIMPLICITLY_WAIT_TIME: 10                    # 显示等待最长时间 /s
+    WEB_POLL_FREQUENCY: 0.2                         # 显示等待元素出现时 在此时间内检索一次 /s
+
+### 报告通知相关配置
+- MSG:
+    DINGDING: #钉钉
+      webhook: 'xxxxx'   # 企业钉钉 webhook
+      secret: 'xxxxx'
+
+    DINGDING_DEV: #钉钉
+      webhook: 'xxxxx'   # 企业钉钉 webhook
+      secret: 'xxxxx'
+
+    DINGDING_TEST: #钉钉测试环境
+      webhook: 'xxxx'
+      secret: 'xxxxx'
+
+- DB:
+    PRO: "xxxxx"
+    TEST: "xxxxxx"
+
+- SSH:
+    ssh_username: 'www'
+    ssh_password: '1$Y5aNVrhu$V@SsV'
+    ssh_host: '47.251.13.160'
+    ssh_port: 22
+
+- REDIS:
+    PRO:
+      host: xxxx
+      port: 6xxx
+      db: x
+    TEST:
+      host: xxxxx
+      port: x
+      db: x

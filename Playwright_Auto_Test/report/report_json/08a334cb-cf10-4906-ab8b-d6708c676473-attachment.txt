@@ -1,0 +1,9 @@
+[32m2024-07-05 15:41:04[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m21][0m-[1m[INFO][0m: [1mpage session fixture starting....[0m
+[32m2024-07-05 15:41:05[0m [35m[MainThread][0m-[36m[test_edit_address[0m.[36mtest_edit_address_pc[0m:[36m127][0m-[1m[INFO][0m: [1m正在测试站点 https://test.cncest.com/ 的PC端EditAddress功能[0m
+[32m2024-07-05 15:41:13[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36maddress_book[0m:[36m15][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/个人中心页面点击address_book[0m
+[32m2024-07-05 15:41:14[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mclick_edit_add[0m:[36m133][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 点击编辑地址[0m
+[32m2024-07-05 15:41:15[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36mclean_oriName[0m:[36m140][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/: 编辑地址清除原先文本[0m
+[32m2024-07-05 15:41:15[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36minput_firstNa_add[0m:[36m31][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/输入客户名xeWi[0m
+[32m2024-07-05 15:41:17[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36msubmit_add[0m:[36m103][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/新增地址,点击确认[0m
+[32m2024-07-05 15:41:17[0m [35m[MainThread][0m-[36m[module_address_book[0m.[36massert_add_address[0m:[36m110][0m-[34m[1m[DEBUG][0m: [34m[1mhttps://test.cncest.com/新增地址断言[0m
+[32m2024-07-05 15:41:17[0m [35m[MainThread][0m-[36m[conftest[0m.[36mcreate_page[0m:[36m30][0m-[1m[INFO][0m: [1mpage session fixture closing.......[0m

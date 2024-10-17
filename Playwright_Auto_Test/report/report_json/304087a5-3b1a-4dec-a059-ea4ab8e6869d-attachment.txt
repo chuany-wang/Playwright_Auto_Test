@@ -1,0 +1,7 @@
+[32mINFO    [0m cases.conftest:conftest.py:21 2024-07-05 15:37:02 [conftest.create_page:21]-[INFO]:page session fixture starting....
+[32mINFO    [0m cases.test_account.test_about_us:test_about_us.py:60 2024-07-05 15:37:02 [test_about_us.test_about_us_pc:60]-[INFO]:正在测试站点 https://test.cncest.com/ 的PC端AboutUs功能
+[35mDEBUG   [0m modules.module_account.module_account:module_account.py:272 2024-07-05 15:37:09 [module_account.click_about_us:272]-[DEBUG]:https://test.cncest.com/点击about_us
+[1m[31mERROR   [0m modules.module_account.module_account:module_account.py:285 2024-07-05 15:37:39 [module_account.assert_about_us:285]-[ERROR]:https://test.cncest.com/: about_us断言出现异常Locator.get_attribute: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//a[@class = \"register-btn\"]")
+[32mINFO    [0m cases.conftest:conftest.py:30 2024-07-05 15:37:39 [conftest.create_page:30]-[INFO]:page session fixture closing.......
